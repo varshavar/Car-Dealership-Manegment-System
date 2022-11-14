@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header /* header for website*/
+{
+    background-image:url(../sp2.jpg);/* to set background darker we keep obesity to be 0.5*/
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;/* properties of background*/
+    background-repeat: no-repeat;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.button
+{
+    margin-top: 44px;
+    margin-left: 162px;
+}
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 87px;
+    color: white;
+    text-decoration: none;
+    margin-right: -227px;
+    font-size: 21px;
+    background:transparent;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    font-family: "Roboto", sans-serif;
+}
+.btn-one:hover
+{
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.one-box{
+    width:45%;
+    height:90%;
+    margin-top: -9px;
+    background-color: black;
+    opacity: 0.8;
+    padding: 30px 30px;
+}
+.one-box h2
+{
+    position: absolute;
+    -webkit-text-stroke: 1px red;
+    -webkit-text-fill-color: white;
+    -webkit-animation: fill 0.5s infinite alternate;
+    line-height: 1.5em;
+    text-transform: none;
+    font-size: 25px;
+    text-align: sans-serif;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.one-box h3
+{
+    -webkit-text-fill-color: white;
+    -webkit-animation: fill 0.5s infinite alternate;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-size: 26px;
+}
+.one-box input[type="text"],
+input[type="password"]
+{
+    box-sizing: border-box;
+    width: 450px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-family: sans-serif;
+    font-weight: 300;
+    transition: 0.25 ease;
+}
+input[type="text"]:hover,input[type="password"]:hover
+{
+    border-bottom-color: #ff4500;
+}
+input[type="submit"]
+{
+    background: white ;
+    border-color: transparent;
+    width: 255px;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 400px;
+    margin-left: 80px;
+}
+input[type="submit"]:hover
+{
+    background-color:orange ;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.opt
+{
+    margin-left:70px;
+}
